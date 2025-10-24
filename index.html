@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone - Dark Mode</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <span class="material-icons-outlined menu-icon" id="menu-toggle">menu</span>
+            <div class="logo-text">YouTube</div>
+        </div>
+        
+        <div class="header-center">
+            <div class="search-container">
+                <input type="text" placeholder="Pesquisar" class="search-input">
+                <button class="search-btn"><span class="material-icons">search</span></button>
+            </div>
+            <span class="material-icons mic-icon">mic</span>
+        </div>
+        
+        <div class="header-right">
+            <span class="material-icons-outlined search-icon-mobile">search</span>
+            <button><span class="material-icons-outlined">apps</span></button>
+            <button><span class="material-icons-outlined">notifications</span></button>
+            <div class="profile-pic"></div>
+        </div>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+        <a class="sidebar-item" href="#"><span class="material-icons">home</span><span>Início</span></a>
+        <a class="sidebar-item" href="#"><span class="material-icons-outlined">explore</span><span>Shorts</span></a>
+        <a class="sidebar-item" href="#"><span class="material-icons-outlined">subscriptions</span><span>Inscrições</span></a>
+        
+        <hr>
+        
+        <div class="sidebar-section-title">Você</div>
+        <a class="sidebar-item" href="#"><span class="material-icons-outlined">account_box</span><span>Seu canal</span></a>
+        <a class="sidebar-item" href="#"><span class="material-icons-outlined">history</span><span>Histórico</span></a>
+        <a class="sidebar-item" href="#"><span class="material-icons-outlined">playlist_play</span><span>Playlists</span></a>
+        <a class="sidebar-item" href="#"><span class="material-icons-outlined">school</span><span>Seus cursos</span></a>
+        <a class="sidebar-item" href="#"><span class="material-icons-outlined">schedule</span><span>Assistir mais tarde</span></a>
+        <a class="sidebar-item" href="#"><span class="material-icons-outlined">thumb_up_off_alt</span><span>Vídeos com "Gostei"</span></a>
+        
+        <hr>
+        
+        <div class="sidebar-section-title">Inscrições</div>
+        <div class="channel-item"><div class="channel-pic" style="background-color: #3f51b5;"></div><span class="channel-name">FERNANDO GIL M...</span></div>
+        <div class="channel-item"><div class="channel-pic" style="background-color: #ff9800;"></div><span class="channel-name">Ataque Crítico</span></div>
+        <div class="channel-item"><div class="channel-pic" style="background-color: #e91e63;"></div><span class="channel-name">Mario Souto - De...</span></div>
+        <div class="channel-item"><div class="channel-pic" style="background-color: #00bcd4;"></div><span class="channel-name">Bruno Caprino</span></div>
+        <div class="channel-item"><div class="channel-pic" style="background-color: #8bc34a;"></div><span class="channel-name">GyNExE</span></div>
+        <div class="channel-item"><div class="channel-pic" style="background-color: #673ab7;"></div><span class="channel-name">Programador BR</span></div>
+        <div class="channel-item"><div class="channel-pic" style="background-color: #ff5722;"></div><span class="channel-name">Othrys Gringo</span></div>
+        <div class="channel-item"><span class="material-icons-outlined">keyboard_arrow_down</span><span class="channel-name">Mostrar mais</span></div>
+    </aside>
+
+    <main class="main-content" id="main-content">
+        <div class="tags-bar" id="tags-bar">
+            <span class="tag active">Tudo</span>
+            <span class="tag">Jogos</span>
+            <span class="tag">Música</span>
+            <span class="tag">Nintendo Switch</span>
+            <span class="tag">Podcasts</span>
+            <span class="tag">Framework</span>
+            <span class="tag">Empreendedorismo</span>
+            <span class="tag">Programação de computadores</span>
+            <span class="tag">Ao vivo</span>
+            <span class="tag">Guitarras clássicas</span>
+            <span class="tag">The Legend of Zelda</span>
+            <span class="tag">Mixes</span>
+            <span class="tag">Controladores de jogos</span>
+        </div>
+        
+
+
+        <section class="video-grid">
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <div class="thumbnail thumbnail-1"></div>
+                    <span class="video-time">7:52</span>
+                </div>
+                <div class="video-details">
+                    <div class="channel-avatar" style="background-color: #3f51b5;"></div>
+                    <div class="video-meta">
+                        <div class="video-title">Criei outro SaaS lucrativo sozinho (Primeiros usuários, faturamento, custos) | Passo a passo</div>
+                        <div class="video-channel">Programador BR</div>
+                        <div class="video-stats">5,9 mil visualizações · há 2 dias</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <div class="thumbnail thumbnail-2"></div>
+                    <span class="video-time">10:49</span>
+                </div>
+                <div class="video-details">
+                    <div class="channel-avatar" style="background-color: #ff9800;"></div>
+                    <div class="video-meta">
+                        <div class="video-title">ME DÊ 10 MINUTOS e eu vou te ensinar como PAREI DE ACORDAR CANSADO</div>
+                        <div class="video-channel">Olá, Ciência!</div>
+                        <div class="video-stats">296 mil visualizações · há 7 dias</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <div class="thumbnail thumbnail-3"></div>
+                    <span class="video-time">15:08</span>
+                </div>
+                <div class="video-details">
+                    <div class="channel-avatar" style="background-color: #e91e63;"></div>
+                    <div class="video-meta">
+                        <div class="video-title">Top 36 MELHORES Jogos Que Vão Lançar no Switch Ainda em 2025</div>
+                        <div class="video-channel">Coelho no Japão</div>
+                        <div class="video-stats">5 mil visualizações · há 5 meses</div>
+                    </div>
+                </div>
+            </div>
+            
+            </section>
+    </main>
+    
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const sidebar = document.getElementById('sidebar');
+        const mainContent = document.getElementById('main-content');
+        const tagsBar = document.getElementById('tags-bar');
+
+        // Função para alternar o estado do menu lateral
+        function toggleSidebar() {
+            // Alterna a classe 'collapsed' no menu lateral e nos containers principais
+            sidebar.classList.toggle('collapsed');
+            mainContent.classList.toggle('collapsed');
+            tagsBar.classList.toggle('collapsed');
+            
+            // Tratamento especial para telas pequenas (mobile), onde o menu é uma sobreposição
+            if (window.innerWidth <= 768) {
+                sidebar.classList.toggle('active'); // Abre/fecha como sobreposição
+            }
+        }
+
+        // Adiciona o event listener ao ícone de menu
+        menuToggle.addEventListener('click', toggleSidebar);
+        
+        // Inicializa o menu contraído se a tela for larga
+        if (window.innerWidth > 768) {
+             sidebar.classList.add('collapsed');
+             mainContent.classList.add('collapsed');
+             tagsBar.classList.add('collapsed');
+        } else {
+             // Em telas pequenas, o menu começa fechado e sem a classe 'collapsed'
+             sidebar.classList.remove('collapsed');
+             mainContent.classList.remove('collapsed');
+             tagsBar.classList.remove('collapsed');
+        }
+
+        // Fecha o menu lateral se for clicado fora dele em modo de sobreposição
+        document.addEventListener('click', function(event) {
+            const isClickInsideSidebar = sidebar.contains(event.target);
+            const isClickOnToggle = menuToggle.contains(event.target);
+            
+            if (window.innerWidth <= 768 && sidebar.classList.contains('active') && !isClickInsideSidebar && !isClickOnToggle) {
+                sidebar.classList.remove('active');
+            }
+        });
+        
+        // Atualiza o estado do menu ao redimensionar a janela
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                // Em desktop, garante que o modo 'collapsed' seja o padrão ao carregar
+                if (!sidebar.classList.contains('collapsed')) {
+                    sidebar.classList.add('collapsed');
+                    mainContent.classList.add('collapsed');
+                    tagsBar.classList.add('collapsed');
+                }
+                sidebar.classList.remove('active'); // Remove a classe de sobreposição
+            } else {
+                 // Em mobile, remove as classes 'collapsed' e esconde o menu
+                 sidebar.classList.remove('collapsed');
+                 mainContent.classList.remove('collapsed');
+                 tagsBar.classList.remove('collapsed');
+                 sidebar.classList.remove('active'); // Garante que está fechado
+            }
+        });
+
+    </script>
+</body>
+</html>
